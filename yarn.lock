@@ -2413,7 +2413,7 @@ debug@2.6.9, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.x, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@~4.3.1, debug@~4.3.2:
+debug@4, debug@4.3.3, debug@4.x, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@~4.3.1, debug@~4.3.2:
   version "4.3.3"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz"
   dependencies:
@@ -5247,15 +5247,15 @@ regjsparser@^0.7.0:
     jsesc "~0.5.0"
 
 release-it@^14.8.0:
-  version "14.11.8"
-  resolved "https://registry.npmjs.org/release-it/-/release-it-14.11.8.tgz"
+  version "14.12.1"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.12.1.tgz#34c0a2465d2064cf5b14f03bc4a6627c3adf3dd4"
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.12.0"
     async-retry "1.3.3"
     chalk "4.1.2"
     cosmiconfig "7.0.1"
-    debug "4.3.2"
+    debug "4.3.3"
     deprecated-obj "2.0.0"
     execa "5.1.1"
     form-data "4.0.0"
