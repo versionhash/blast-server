@@ -131,7 +131,11 @@ export async function getChatById(req, res) {
   try {
     let allMessages = {};
 
-    allMessages = await req.client.getAllMessagesInChat(`${phone}`, true, true);
+    if (isGroup) {
+      allMessages = await req.client.getAllMessagesInChat(`${phone}@g.us`, true, true);
+    } else {
+      allMessages = await req.client.getAllMessagesInChat(`${phone}@c.us`, true, true);
+    }
 
     let dir = './WhatsAppImages';
     if (!fs.existsSync(dir)) {
@@ -659,13 +663,13 @@ export async function chatWoot(req, res) {
     if (await client.isConnected()) {
       const event = req.body.event;
 
-      if (event == 'conversation_status_changed' || event == 'conversation_resolved') {
+      if (event == 'conversation_status_changed' || event == 'conversation_resolved' || req.body.private) {
         return res.status(200).json({ status: 'success', message: 'Success on receive chatwoot' });
       }
 
       const {
         message_type,
-        phone = req.body.conversation.meta.sender.phone_number,
+        phone = req.body.conversation.meta.sender.phone_number.replace('+', ''),
         message = req.body.conversation.messages[0],
       } = req.body;
 
