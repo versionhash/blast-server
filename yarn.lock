@@ -1565,8 +1565,8 @@ atob@^2.1.2:
   resolved "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
 
 aws-sdk@^2.903.0:
-  version "2.1056.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1056.0.tgz#a1eb5039e3c780ce484f34ef2e0760cb8cccbf3e"
+  version "2.1057.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1057.0.tgz#010d01a57f4f98f445842a200221d803db4c9cc9"
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
