@@ -921,7 +921,7 @@
     "@commitlint/rules" "^16.0.0"
     "@commitlint/types" "^16.0.0"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^16.0.0", "@commitlint/load@^16.1.0":
+"@commitlint/load@>6.1.1", "@commitlint/load@^16.1.0":
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.1.0.tgz#7a884072ab915611080c5e99a1f1d999c05f4360"
   dependencies:
@@ -1334,13 +1334,13 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.11.1":
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.12.2.tgz#0097c53a8b2f618636c1f55f432b59dbfe64a4fe"
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.12.3.tgz#ce5a0d9d869fe55be9a2519c0b3ee06a7a638ed7"
   dependencies:
-    "@wppconnect/wa-js" "^1.1.5"
+    "@wppconnect/wa-js" "^1.1.9"
     "@wppconnect/wa-version" "^1.1.27"
     atob "^2.1.2"
-    axios "^0.24.0"
+    axios "^0.25.0"
     boxen "^5.1.2"
     catch-exit "^1.1.0"
     chalk "~4.1.2"
@@ -1365,13 +1365,13 @@
     tmp "^0.2.1"
     tree-kill "^1.2.2"
     winston "^3.4.0"
-    ws "^8.4.1"
+    ws "^8.4.2"
   optionalDependencies:
     fsevents "^2.3.1"
 
-"@wppconnect/wa-js@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-1.1.5.tgz#4831bdf15c9fc6c26dfb123071478b6e9ed450ea"
+"@wppconnect/wa-js@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-1.1.9.tgz#96bb88a5b67e0c1bddb6621dc6dbdc90ee945269"
 
 "@wppconnect/wa-version@^1.1.27":
   version "1.1.27"
@@ -1573,12 +1573,6 @@ aws-sdk@^2.903.0:
     url "0.10.3"
     uuid "3.3.2"
     xml2js "0.4.19"
-
-axios@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
-  dependencies:
-    follow-redirects "^1.14.4"
 
 axios@^0.25.0:
   version "0.25.0"
@@ -3001,7 +2995,7 @@ fn.name@1.x.x:
   version "1.1.0"
   resolved "https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz"
 
-follow-redirects@^1.14.4, follow-redirects@^1.14.7:
+follow-redirects@^1.14.7:
   version "1.14.7"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
 
@@ -6242,9 +6236,9 @@ ws@8.2.3, ws@~8.2.3:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
 
-ws@^8.4.1:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.4.1.tgz#ce1a17e553d2b794e017fa94887808db5c67f614"
+ws@^8.4.2:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.4.2.tgz#18e749868d8439f2268368829042894b6907aa0b"
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
