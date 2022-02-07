@@ -1356,11 +1356,11 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.11.1":
-  version "1.12.4"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.12.4.tgz#ddc7acb047d0e68b4317ba808ebe48ccf1ca3499"
+  version "1.12.5"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.12.5.tgz#b7c6469544607a3b51f8d719caea7b3dce16dffe"
   dependencies:
-    "@wppconnect/wa-js" "^1.1.10"
-    "@wppconnect/wa-version" "^1.1.27"
+    "@wppconnect/wa-js" "^1.1.16"
+    "@wppconnect/wa-version" "^1.1.30"
     atob "^2.1.2"
     axios "^0.25.0"
     boxen "^5.1.2"
@@ -1369,7 +1369,7 @@
     chrome-launcher "^0.15.0"
     execa "^5.0.0"
     file-type "~16.5.3"
-    futoin-hkdf "^1.4.3"
+    futoin-hkdf "^1.5.0"
     latest-version "^5.1.0"
     logform "^2.3.2"
     lookpath "^1.2.0"
@@ -1383,23 +1383,23 @@
     reflect-metadata "^0.1.13"
     rimraf "^3.0.2"
     sanitize-filename "^1.6.3"
-    sharp "^0.29.3"
+    sharp "^0.30.0"
     tmp "^0.2.1"
     tree-kill "^1.2.2"
-    winston "^3.4.0"
+    winston "^3.5.1"
     ws "^8.4.2"
   optionalDependencies:
     fsevents "^2.3.1"
 
-"@wppconnect/wa-js@^1.1.10":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-1.1.11.tgz#aad776c9750285cd08dc273206da99d286c8aa4a"
+"@wppconnect/wa-js@^1.1.16":
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-1.1.16.tgz#d04d4eedeca3eddfc1483c72d99a28d548e0f408"
 
-"@wppconnect/wa-version@^1.1.27":
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.27.tgz#555b077235675472e7a9a89b3563f891ec09326f"
+"@wppconnect/wa-version@^1.1.30":
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.30.tgz#016a6a85022dbd988dba2645927cecb8d98f2767"
   dependencies:
-    node-fetch "^2.6.6"
+    node-fetch "^2.6.7"
     semver "^7.3.5"
 
 JSONStream@^1.0.4:
@@ -2019,9 +2019,9 @@ color@^3.1.3:
     color-convert "^1.9.3"
     color-string "^1.6.0"
 
-color@^4.0.1:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/color/-/color-4.1.0.tgz"
+color@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/color/-/color-4.2.0.tgz#0c782459a3e98838ea01e4bc0fb43310ca35af78"
   dependencies:
     color-convert "^2.0.1"
     color-string "^1.9.0"
@@ -2478,6 +2478,10 @@ detect-indent@6.0.0:
 detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz"
+
+detect-libc@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.0.tgz#c528bc09bc6d1aa30149228240917c225448f204"
 
 devtools-protocol@0.0.937139:
   version "0.0.937139"
@@ -3086,9 +3090,9 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
 
-futoin-hkdf@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npmjs.org/futoin-hkdf/-/futoin-hkdf-1.4.3.tgz"
+futoin-hkdf@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/futoin-hkdf/-/futoin-hkdf-1.5.0.tgz#f10cc4d32f1e26568ded58d5a6535a97aa3a064c"
 
 gauge@^3.0.0:
   version "3.0.2"
@@ -4383,9 +4387,9 @@ node-addon-api@^3.1.0:
   version "3.2.1"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.2.1.tgz"
 
-node-addon-api@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.2.0.tgz"
+node-addon-api@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-4.3.0.tgz#52a1a0b475193e0928e98e0426a0d1254782b77f"
 
 node-environment-flags@^1.0.5:
   version "1.0.6"
@@ -4400,9 +4404,15 @@ node-fetch@2.6.5:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-fetch@^2.6.1, node-fetch@^2.6.5, node-fetch@^2.6.6:
+node-fetch@^2.6.1, node-fetch@^2.6.5:
   version "2.6.6"
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.6.tgz"
+  dependencies:
+    whatwg-url "^5.0.0"
+
+node-fetch@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -4790,11 +4800,11 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-prebuild-install@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.0.0.tgz"
+prebuild-install@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-7.0.1.tgz#c10075727c318efe72412f333e0ef625beaf3870"
   dependencies:
-    detect-libc "^1.0.3"
+    detect-libc "^2.0.0"
     expand-template "^2.0.3"
     github-from-package "0.0.0"
     minimist "^1.2.3"
@@ -5322,6 +5332,10 @@ safe-stable-stringify@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-1.1.1.tgz"
 
+safe-stable-stringify@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz#ab67cbe1fe7d40603ca641c5e765cb942d04fc73"
+
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
@@ -5416,16 +5430,16 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
-sharp@^0.29.3:
-  version "0.29.3"
-  resolved "https://registry.npmjs.org/sharp/-/sharp-0.29.3.tgz"
+sharp@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.0.tgz#b2dd62d5f14088b11c72212354f31dff6511b070"
   dependencies:
-    color "^4.0.1"
-    detect-libc "^1.0.3"
-    node-addon-api "^4.2.0"
-    prebuild-install "^7.0.0"
+    color "^4.2.0"
+    detect-libc "^2.0.0"
+    node-addon-api "^4.3.0"
+    prebuild-install "^7.0.1"
     semver "^7.3.5"
-    simple-get "^4.0.0"
+    simple-get "^4.0.1"
     tar-fs "^2.1.1"
     tunnel-agent "^0.6.0"
 
@@ -5477,6 +5491,14 @@ simple-concat@^1.0.0:
 simple-get@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/simple-get/-/simple-get-4.0.0.tgz"
+  dependencies:
+    decompress-response "^6.0.0"
+    once "^1.3.1"
+    simple-concat "^1.0.0"
+
+simple-get@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/simple-get/-/simple-get-4.0.1.tgz#4a39db549287c979d352112fa03fd99fd6bc3543"
   dependencies:
     decompress-response "^6.0.0"
     once "^1.3.1"
@@ -6204,9 +6226,9 @@ winston-transport@^4.4.2:
     readable-stream "^3.4.0"
     triple-beam "^1.2.0"
 
-winston@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-3.4.0.tgz#7080f24b02a0684f8a37f9d5c6afb1ac23e95b84"
+winston@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.5.1.tgz#b25cc899d015836dbf8c583dec8c4c4483a0da2e"
   dependencies:
     "@dabh/diagnostics" "^2.0.2"
     async "^3.2.3"
@@ -6214,6 +6236,7 @@ winston@^3.4.0:
     logform "^2.3.2"
     one-time "^1.0.0"
     readable-stream "^3.4.0"
+    safe-stable-stringify "^2.3.1"
     stack-trace "0.0.x"
     triple-beam "^1.3.0"
     winston-transport "^4.4.2"
