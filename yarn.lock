@@ -876,34 +876,34 @@
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
-"@commitlint/config-validator@^16.1.0":
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-validator/-/config-validator-16.1.0.tgz#410979f713ed55cbb85504d46295c1fd2419dc4d"
+"@commitlint/config-validator@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-validator/-/config-validator-16.2.1.tgz#794e769afd4756e4cf1bfd823b6612932e39c56d"
   dependencies:
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/types" "^16.2.1"
     ajv "^6.12.6"
 
 "@commitlint/cz-commitlint@^16.0.0":
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cz-commitlint/-/cz-commitlint-16.1.0.tgz#e7ddc02f45e410a7b131c5446c09f75ac7b20884"
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/cz-commitlint/-/cz-commitlint-16.2.1.tgz#49a1b777eabe9929e45a035546c14c8aa8dbe044"
   dependencies:
-    "@commitlint/ensure" "^16.0.0"
-    "@commitlint/load" "^16.1.0"
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/ensure" "^16.2.1"
+    "@commitlint/load" "^16.2.1"
+    "@commitlint/types" "^16.2.1"
     chalk "^4.1.0"
     lodash "^4.17.21"
     word-wrap "^1.2.3"
 
-"@commitlint/ensure@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-16.0.0.tgz#fdac1e60a944a1993deb33b5e8454c559abe9866"
+"@commitlint/ensure@^16.0.0", "@commitlint/ensure@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-16.2.1.tgz#0fc538173f95c1eb2694eeedb79cab478347f16f"
   dependencies:
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/types" "^16.2.1"
     lodash "^4.17.19"
 
-"@commitlint/execute-rule@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-16.0.0.tgz#824e11ba5b208c214a474ae52a51780d32d31ebc"
+"@commitlint/execute-rule@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-16.2.1.tgz#60be73be4b9af97a41546e7ce59fdd33787c65f8"
 
 "@commitlint/format@^16.0.0":
   version "16.0.0"
@@ -928,14 +928,15 @@
     "@commitlint/rules" "^16.0.0"
     "@commitlint/types" "^16.0.0"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^16.1.0":
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.1.0.tgz#7a884072ab915611080c5e99a1f1d999c05f4360"
+"@commitlint/load@>6.1.1", "@commitlint/load@^16.1.0", "@commitlint/load@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.2.1.tgz#301bda1bff66b3e40a85819f854eda72538d8e24"
   dependencies:
-    "@commitlint/config-validator" "^16.1.0"
-    "@commitlint/execute-rule" "^16.0.0"
-    "@commitlint/resolve-extends" "^16.1.0"
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/config-validator" "^16.2.1"
+    "@commitlint/execute-rule" "^16.2.1"
+    "@commitlint/resolve-extends" "^16.2.1"
+    "@commitlint/types" "^16.2.1"
+    "@types/node" ">=12"
     chalk "^4.0.0"
     cosmiconfig "^7.0.0"
     cosmiconfig-typescript-loader "^1.0.0"
@@ -964,12 +965,12 @@
     fs-extra "^10.0.0"
     git-raw-commits "^2.0.0"
 
-"@commitlint/resolve-extends@^16.1.0":
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-16.1.0.tgz#4b199197c45ddb436b59ef319662de6870f68fd5"
+"@commitlint/resolve-extends@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-16.2.1.tgz#2f7833a5a3a7aa79f508e59fcb0f1d33c45ed360"
   dependencies:
-    "@commitlint/config-validator" "^16.1.0"
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/config-validator" "^16.2.1"
+    "@commitlint/types" "^16.2.1"
     import-fresh "^3.0.0"
     lodash "^4.17.19"
     resolve-from "^5.0.0"
@@ -995,9 +996,9 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-16.0.0.tgz#3c133f106d36132756c464071a7f2290966727a3"
+"@commitlint/types@^16.0.0", "@commitlint/types@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-16.2.1.tgz#f25d373b88b01e51fc3fa44488101361945a61bd"
   dependencies:
     chalk "^4.0.0"
 
@@ -1317,6 +1318,10 @@
 "@types/node@*", "@types/node@>=10.0.0":
   version "17.0.5"
   resolved "https://registry.npmjs.org/@types/node/-/node-17.0.5.tgz"
+
+"@types/node@>=12":
+  version "17.0.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.17.tgz#a8ddf6e0c2341718d74ee3dc413a13a042c45a0c"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
