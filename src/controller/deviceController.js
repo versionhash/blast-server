@@ -131,11 +131,12 @@ export async function getChatById(req, res) {
   try {
     let allMessages = {};
 
-    if (isGroup) {
-      allMessages = await req.client.getAllMessagesInChat(`${phone}@g.us`, true, true);
-    } else {
-      allMessages = await req.client.getAllMessagesInChat(`${phone}@c.us`, true, true);
-    }
+    // if (isGroup) {
+    //   allMessages = await req.client.getAllMessagesInChat(`${phone}@g.us`, true, true);
+    // } else {
+    //   allMessages = await req.client.getAllMessagesInChat(`${phone}@c.us`, true, true);
+    // }
+    allMessages = await req.client.getAllMessagesInChat(`${phone}`, true, true);
 
     let dir = './WhatsAppImages';
     if (!fs.existsSync(dir)) {

@@ -66,7 +66,7 @@ export async function sendImage(req, res) {
 }
 
 export async function sendFile(req, res) {
-  const { phone, path, filename = 'file', message } = req.body;
+  const { phone, path, filename = 'file', caption } = req.body;
 
   if (!path && !req.file)
     return res.status(401).send({
@@ -78,7 +78,7 @@ export async function sendFile(req, res) {
   try {
     let results = [];
     for (const contato of phone) {
-      results.push(await req.client.sendFile(contato, pathFile, filename, message));
+      results.push(await req.client.sendFile(contato, pathFile, filename, caption));
     }
 
     if (results.length === 0) return res.status(400).json('Error sending message');
