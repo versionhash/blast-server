@@ -19,6 +19,7 @@ import fs from 'fs';
 import { promisify } from 'util';
 import { convert } from '../mapper/index';
 import config from '../config.json';
+import { eventEmitter } from './sessionUtil';
 
 let mime = config.webhook.uploadS3 ? require('mime-types') : null;
 let crypto = config.webhook.uploadS3 ? require('crypto') : null;
@@ -106,26 +107,30 @@ export async function callWebHook(client, req, event, data) {
 }
 
 async function autoDownload(client, req, message) {
-  if (message && (message['mimetype'] || message.isMedia || message.isMMS)) {
-    let buffer = await client.decryptFile(message);
-    if (req.serverOptions.webhook.uploadS3) {
-      var hashName = crypto.randomBytes(24).toString('hex');
-      var fileName = `${hashName}.${mime.extension(message.mimetype)}`;
+  try {
+    if (message && (message['mimetype'] || message.isMedia || message.isMMS)) {
+      let buffer = await client.decryptFile(message);
+      if (req.serverOptions.webhook.uploadS3) {
+        var hashName = crypto.randomBytes(24).toString('hex');
+        var fileName = `${hashName}.${mime.extension(message.mimetype)}`;
 
-      const s3 = new aws.S3();
+        const s3 = new aws.S3();
 
-      var params = {
-        Bucket: client.session,
-        Key: fileName,
-        Body: buffer,
-        ACL: 'public-read',
-        ContentType: message.mimetype,
-      };
-      const data = await s3.upload(params).promise();
-      message.fileUrl = data.Location;
-    } else {
-      message.body = await buffer.toString('base64');
+        var params = {
+          Bucket: client.session,
+          Key: fileName,
+          Body: buffer,
+          ACL: 'public-read',
+          ContentType: message.mimetype,
+        };
+        const data = await s3.upload(params).promise();
+        message.fileUrl = data.Location;
+      } else {
+        message.body = await buffer.toString('base64');
+      }
     }
+  } catch (e) {
+    req.logger.error(e);
   }
 }
 
@@ -171,8 +176,10 @@ async function archive(client, req) {
 
   try {
     let chats = await client.getAllChats();
-    chats = chats.filter((c) => !c.archive);
-    if (chats && chats.length > 0) {
+    if (chats && Array.isArray(chats) && chats.length > 0) {
+      chats = chats.filter((c) => !c.archive);
+    }
+    if (chats && Array.isArray(chats) && chats.length > 0) {
       for (let i = 0; i < chats.length; i++) {
         let date = new Date(chats[i].t * 1000);
 
@@ -228,6 +235,12 @@ export function getIPAddress() {
     }
   }
   return '0.0.0.0';
+}
+
+export function setMaxListners(serverOptions) {
+  if (serverOptions && Number.isInteger(serverOptions.maxListeners)) {
+    process.setMaxListeners(serverOptions.maxListeners);
+  }
 }
 
 export let unlinkAsync = promisify(fs.unlink);

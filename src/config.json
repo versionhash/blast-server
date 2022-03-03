@@ -1,15 +1,16 @@
 {
-  "secretKey": "987654321d9m8df11",
+  "secretKey": "THISISMYSECURETOKEN",
   "host": "http://localhost",
   "port": "21465",
-  "deviceName" : "Google Chrome (MacOS)",
+  "deviceName": "WppConnect",
   "startAllSession": true,
   "tokenStoreType": "file",
+  "maxListeners": 15,
   "webhook": {
     "url": null,
     "autoDownload": true,
     "uploadS3": false,
-    "readMessage": false,
+    "readMessage": true,
     "allUnreadOnStart": false,
     "listenAcks": true,
     "onPresenceChanged": true,
@@ -25,7 +26,6 @@
     "logger": ["console", "file"]
   },
   "createOptions": {
-    "autoClose": 0, 
     "browserArgs": [
       "--disable-web-security",
       "--no-sandbox",
