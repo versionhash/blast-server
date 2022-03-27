@@ -26,6 +26,8 @@
     "logger": ["console", "file"]
   },
   "createOptions": {
+    "disableWelcome" : false,
+    "logQR" : false,
     "browserArgs": [
       "--disable-web-security",
       "--no-sandbox",
