@@ -1,7 +1,7 @@
 {
   "secretKey": "987654321d9m8df11",
-  "host": "http://localhost",
-  "port": "21465",
+  "host": "http://blast-server-2-kuscj.ondigitalocean.app",
+  "port": "8080",
   "deviceName": "Google Chrome",
   "startAllSession": true,
   "tokenStoreType": "file",
