@@ -4409,8 +4409,8 @@ node-releases@^2.0.1:
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.2.tgz"
 
 nodemon@^2.0.7:
-  version "2.0.15"
-  resolved "https://registry.npmjs.org/nodemon/-/nodemon-2.0.15.tgz"
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.16.tgz#d71b31bfdb226c25de34afea53486c8ef225fdef"
   dependencies:
     chokidar "^3.5.2"
     debug "^3.2.7"
@@ -5351,13 +5351,13 @@ semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/semver/-/semver-7.0.0.tgz"
 
-semver@7.3.5, semver@^7.3.4, semver@^7.3.5:
+semver@7.3.5:
   version "7.3.5"
   resolved "https://registry.npmjs.org/semver/-/semver-7.3.5.tgz"
   dependencies:
     lru-cache "^6.0.0"
 
-semver@7.3.7:
+semver@7.3.7, semver@^7.3.4, semver@^7.3.5:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   dependencies:
