@@ -1234,10 +1234,6 @@
   version "4.4.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-4.4.0.tgz"
 
-"@socket.io/base64-arraybuffer@~1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@socket.io/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz"
-
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-1.1.2.tgz"
@@ -2558,15 +2554,13 @@ end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-engine.io-parser@~5.0.0:
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.0.3.tgz"
-  dependencies:
-    "@socket.io/base64-arraybuffer" "~1.0.2"
+engine.io-parser@~5.0.3:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/engine.io-parser/-/engine.io-parser-5.0.4.tgz#0b13f704fa9271b3ec4f33112410d8f3f41d0fc0"
 
-engine.io@~6.1.0:
-  version "6.1.2"
-  resolved "https://registry.npmjs.org/engine.io/-/engine.io-6.1.2.tgz"
+engine.io@~6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.2.0.tgz#003bec48f6815926f2b1b17873e576acd54f41d0"
   dependencies:
     "@types/cookie" "^0.4.1"
     "@types/cors" "^2.8.12"
@@ -2576,7 +2570,7 @@ engine.io@~6.1.0:
     cookie "~0.4.1"
     cors "~2.8.5"
     debug "~4.3.1"
-    engine.io-parser "~5.0.0"
+    engine.io-parser "~5.0.3"
     ws "~8.2.3"
 
 error-ex@^1.3.1:
@@ -5494,9 +5488,9 @@ smart-buffer@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
 
-socket.io-adapter@~2.3.3:
-  version "2.3.3"
-  resolved "https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.3.3.tgz"
+socket.io-adapter@~2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-2.4.0.tgz#b50a4a9ecdd00c34d4c8c808224daa1a786152a6"
 
 socket.io-parser@~4.0.4:
   version "4.0.4"
@@ -5507,14 +5501,14 @@ socket.io-parser@~4.0.4:
     debug "~4.3.1"
 
 socket.io@^4.1.2:
-  version "4.4.1"
-  resolved "https://registry.npmjs.org/socket.io/-/socket.io-4.4.1.tgz"
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-4.5.0.tgz#78ae2e84784c29267086a416620c18ef95b37186"
   dependencies:
     accepts "~1.3.4"
     base64id "~2.0.0"
     debug "~4.3.2"
-    engine.io "~6.1.0"
-    socket.io-adapter "~2.3.3"
+    engine.io "~6.2.0"
+    socket.io-adapter "~2.4.0"
     socket.io-parser "~4.0.4"
 
 socks@^2.6.1:
