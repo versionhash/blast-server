@@ -9,16 +9,16 @@
     "@jridgewell/trace-mapping" "^0.3.0"
 
 "@babel/cli@^7.14.5":
-  version "7.17.0"
-  resolved "https://registry.npmjs.org/@babel/cli/-/cli-7.17.0.tgz"
+  version "7.17.10"
+  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.10.tgz#5ea0bf6298bb78f3b59c7c06954f9bd1c79d5943"
   dependencies:
+    "@jridgewell/trace-mapping" "^0.3.8"
     commander "^4.0.1"
     convert-source-map "^1.1.0"
     fs-readdir-recursive "^1.1.0"
     glob "^7.0.0"
     make-dir "^2.1.0"
     slash "^2.0.0"
-    source-map "^0.5.0"
   optionalDependencies:
     "@nicolo-ribaudo/chokidar-2" "2.1.8-no-fsevents.3"
     chokidar "^3.4.0"
@@ -1065,9 +1065,9 @@
   version "1.4.10"
   resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.10.tgz"
 
-"@jridgewell/trace-mapping@^0.3.0":
-  version "0.3.4"
-  resolved "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.4.tgz"
+"@jridgewell/trace-mapping@^0.3.0", "@jridgewell/trace-mapping@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.10.tgz#db436f0917d655393851bc258918c00226c9b183"
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
