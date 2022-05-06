@@ -874,8 +874,8 @@
     yargs "^17.0.0"
 
 "@commitlint/config-conventional@^16.0.0":
-  version "16.2.1"
-  resolved "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-16.2.1.tgz"
+  version "16.2.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-16.2.4.tgz#56647108c89ed06fc5271242787550331988c0fb"
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
