@@ -958,17 +958,17 @@
     ajv "^6.12.6"
 
 "@commitlint/cz-commitlint@^16.0.0":
-  version "16.1.0"
-  resolved "https://registry.npmjs.org/@commitlint/cz-commitlint/-/cz-commitlint-16.1.0.tgz"
+  version "16.2.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/cz-commitlint/-/cz-commitlint-16.2.4.tgz#89cb0b44f2c3515df09db04e863f8d6cc2a45ca7"
   dependencies:
-    "@commitlint/ensure" "^16.0.0"
-    "@commitlint/load" "^16.1.0"
-    "@commitlint/types" "^16.0.0"
+    "@commitlint/ensure" "^16.2.1"
+    "@commitlint/load" "^16.2.4"
+    "@commitlint/types" "^16.2.1"
     chalk "^4.1.0"
     lodash "^4.17.21"
     word-wrap "^1.2.3"
 
-"@commitlint/ensure@^16.0.0", "@commitlint/ensure@^16.2.1":
+"@commitlint/ensure@^16.2.1":
   version "16.2.1"
   resolved "https://registry.npmjs.org/@commitlint/ensure/-/ensure-16.2.1.tgz"
   dependencies:
@@ -1002,7 +1002,7 @@
     "@commitlint/rules" "^16.2.4"
     "@commitlint/types" "^16.2.1"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^16.1.0", "@commitlint/load@^16.2.4":
+"@commitlint/load@>6.1.1", "@commitlint/load@^16.2.4":
   version "16.2.4"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.2.4.tgz#32c9f4c6538b21cf48cf40266312bb1adb65f435"
   dependencies:
@@ -1070,7 +1070,7 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^16.0.0", "@commitlint/types@^16.2.1":
+"@commitlint/types@^16.2.1":
   version "16.2.1"
   resolved "https://registry.npmjs.org/@commitlint/types/-/types-16.2.1.tgz"
   dependencies:
