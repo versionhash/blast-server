@@ -1401,13 +1401,13 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.12.8":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.0.tgz#f430a9c5cb57e5d2954454250a663e25e7b0e3c8"
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.1.tgz#3a38ac76254f7b648870c1a4e86fe419217ae475"
   dependencies:
-    "@wppconnect/wa-js" "^2.0.0"
-    "@wppconnect/wa-version" "^1.1.66"
+    "@wppconnect/wa-js" "^2.2.1"
+    "@wppconnect/wa-version" "^1.1.74"
     atob "^2.1.2"
-    axios "^0.26.1"
+    axios "^0.27.2"
     boxen "^5.1.2"
     catch-exit "^1.1.0"
     chalk "~4.1.2"
@@ -1432,17 +1432,17 @@
     tmp "^0.2.1"
     tree-kill "^1.2.2"
     winston "^3.7.2"
-    ws "^8.5.0"
+    ws "^8.6.0"
   optionalDependencies:
     fsevents "^2.3.1"
 
-"@wppconnect/wa-js@^2.0.0":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.1.3.tgz#b3d48663817e465ce9e1c393c53cb727eebc04d1"
+"@wppconnect/wa-js@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.2.1.tgz#fccefc1243856f3072d4927b98a914ce3337bbfb"
 
-"@wppconnect/wa-version@^1.1.66":
-  version "1.1.71"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.71.tgz#60dffa1a1b561f588b7956d92cf27a11d07537ee"
+"@wppconnect/wa-version@^1.1.74":
+  version "1.1.74"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.74.tgz#f2aa6c273253ad755b95b7f4efbac40e520dbbba"
   dependencies:
     node-fetch "^2.6.7"
     semver "^7.3.7"
@@ -1640,12 +1640,6 @@ aws-sdk@^2.903.0:
     url "0.10.3"
     uuid "3.3.2"
     xml2js "0.4.19"
-
-axios@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
-  dependencies:
-    follow-redirects "^1.14.8"
 
 axios@^0.27.2:
   version "0.27.2"
@@ -3059,7 +3053,7 @@ fn.name@1.x.x:
   version "1.1.0"
   resolved "https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz"
 
-follow-redirects@^1.14.8, follow-redirects@^1.14.9:
+follow-redirects@^1.14.9:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.0.tgz#06441868281c86d0dda4ad8bdaead2d02dca89d4"
 
@@ -6320,9 +6314,9 @@ ws@8.2.3, ws@~8.2.3:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
 
-ws@^8.5.0:
-  version "8.5.0"
-  resolved "https://registry.npmjs.org/ws/-/ws-8.5.0.tgz"
+ws@^8.6.0:
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.6.0.tgz#e5e9f1d9e7ff88083d0c0dd8281ea662a42c9c23"
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
