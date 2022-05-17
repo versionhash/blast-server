@@ -4012,8 +4012,8 @@ levn@^0.4.1:
     type-check "~0.4.0"
 
 license-check-and-add@^4.0.2:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/license-check-and-add/-/license-check-and-add-4.0.3.tgz"
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/license-check-and-add/-/license-check-and-add-4.0.5.tgz#ef820a78d59248327565ab5b7dec16776ac1ea4b"
   dependencies:
     fs-extra "^8.1.0"
     gitignore-to-glob "^0.3.0"
