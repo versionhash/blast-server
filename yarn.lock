@@ -1431,23 +1431,23 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.12.8":
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.1.tgz#3a38ac76254f7b648870c1a4e86fe419217ae475"
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.2.tgz#f7736fbf9d502b4d74234553d1e2724b44bd2f2c"
   dependencies:
-    "@wppconnect/wa-js" "^2.2.1"
-    "@wppconnect/wa-version" "^1.1.74"
+    "@wppconnect/wa-js" "^2.4.0"
+    "@wppconnect/wa-version" "^1.1.88"
     atob "^2.1.2"
     axios "^0.27.2"
     boxen "^5.1.2"
-    catch-exit "^1.1.0"
+    catch-exit "^1.2.2"
     chalk "~4.1.2"
     chrome-launcher "^0.15.0"
-    execa "^5.0.0"
+    execa "^5.1.1"
     file-type "~16.5.3"
-    futoin-hkdf "^1.5.0"
+    futoin-hkdf "^1.5.1"
     latest-version "^5.1.0"
     logform "^2.4.0"
-    lookpath "^1.2.0"
+    lookpath "^1.2.2"
     mime-types "^2.1.35"
     puppeteer "*"
     puppeteer-extra "^3.2.3"
@@ -1458,21 +1458,21 @@
     reflect-metadata "^0.1.13"
     rimraf "^3.0.2"
     sanitize-filename "^1.6.3"
-    sharp "^0.30.4"
+    sharp "^0.30.5"
     tmp "^0.2.1"
     tree-kill "^1.2.2"
     winston "^3.7.2"
-    ws "^8.6.0"
+    ws "^8.7.0"
   optionalDependencies:
-    fsevents "^2.3.1"
+    fsevents "^2.3.2"
 
-"@wppconnect/wa-js@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.2.1.tgz#fccefc1243856f3072d4927b98a914ce3337bbfb"
+"@wppconnect/wa-js@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.4.0.tgz#ebf9606f5767e95a27c90edb582f38eedf413cb8"
 
-"@wppconnect/wa-version@^1.1.74":
-  version "1.1.74"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.74.tgz#f2aa6c273253ad755b95b7f4efbac40e520dbbba"
+"@wppconnect/wa-version@^1.1.88":
+  version "1.1.88"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.88.tgz#61fb8f8db0a5125c8a4282bb09b35ff1ed36d4ba"
   dependencies:
     node-fetch "^2.6.7"
     semver "^7.3.7"
@@ -1908,9 +1908,9 @@ caniuse-lite@^1.0.30001332:
   version "1.0.30001338"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001338.tgz#b5dd7a7941a51a16480bdf6ff82bded1628eec0d"
 
-catch-exit@^1.1.0:
+catch-exit@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.npmjs.org/catch-exit/-/catch-exit-1.2.2.tgz"
+  resolved "https://registry.yarnpkg.com/catch-exit/-/catch-exit-1.2.2.tgz#46f902fe632106665248b557a7cc48882795bb88"
   dependencies:
     human-signals "2.1.0"
 
@@ -2832,7 +2832,7 @@ events@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/events/-/events-1.1.1.tgz"
 
-execa@5.1.1, execa@^5.0.0:
+execa@5.1.1, execa@^5.0.0, execa@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/execa/-/execa-5.1.1.tgz"
   dependencies:
@@ -3155,7 +3155,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
 
-fsevents@^2.3.1, fsevents@~2.3.2:
+fsevents@^2.3.2, fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
 
@@ -3167,9 +3167,9 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
 
-futoin-hkdf@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/futoin-hkdf/-/futoin-hkdf-1.5.0.tgz"
+futoin-hkdf@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/futoin-hkdf/-/futoin-hkdf-1.5.1.tgz#141f00427bc9950b38a42aa786b99c318b9b688d"
 
 gauge@^3.0.0:
   version "3.0.2"
@@ -4134,9 +4134,9 @@ longest@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/longest/-/longest-2.0.1.tgz"
 
-lookpath@^1.2.0:
+lookpath@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.npmjs.org/lookpath/-/lookpath-1.2.2.tgz"
+  resolved "https://registry.yarnpkg.com/lookpath/-/lookpath-1.2.2.tgz#bddcd1440b6643e07495138376d43aed38bcd454"
 
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"
@@ -4467,9 +4467,9 @@ node-addon-api@^3.1.0:
   version "3.2.1"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.2.1.tgz"
 
-node-addon-api@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.3.0.tgz"
+node-addon-api@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.0.0.tgz#7d7e6f9ef89043befdb20c1989c905ebde18c501"
 
 node-environment-flags@^1.0.5:
   version "1.0.6"
@@ -4868,9 +4868,9 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-prebuild-install@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.0.1.tgz"
+prebuild-install@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-7.1.0.tgz#991b6ac16c81591ba40a6d5de93fb33673ac1370"
   dependencies:
     detect-libc "^2.0.0"
     expand-template "^2.0.3"
@@ -5499,14 +5499,14 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
-sharp@^0.30.4:
-  version "0.30.4"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.4.tgz#73d9daa63bbc20da189c9328d75d5d395fc8fb73"
+sharp@^0.30.5:
+  version "0.30.6"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.6.tgz#02264e9826b5f1577509f70bb627716099778873"
   dependencies:
     color "^4.2.3"
     detect-libc "^2.0.1"
-    node-addon-api "^4.3.0"
-    prebuild-install "^7.0.1"
+    node-addon-api "^5.0.0"
+    prebuild-install "^7.1.0"
     semver "^7.3.7"
     simple-get "^4.0.1"
     tar-fs "^2.1.1"
@@ -6348,9 +6348,9 @@ ws@8.2.3, ws@~8.2.3:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
 
-ws@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.6.0.tgz#e5e9f1d9e7ff88083d0c0dd8281ea662a42c9c23"
+ws@^8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.7.0.tgz#eaf9d874b433aa00c0e0d8752532444875db3957"
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
