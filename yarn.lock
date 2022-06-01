@@ -1157,35 +1157,6 @@
   version "2.1.8-no-fsevents.3"
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
 
-"@node-redis/bloom@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@node-redis/bloom/-/bloom-1.0.1.tgz"
-
-"@node-redis/client@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@node-redis/client/-/client-1.0.3.tgz"
-  dependencies:
-    cluster-key-slot "1.1.0"
-    generic-pool "3.8.2"
-    redis-parser "3.0.0"
-    yallist "4.0.0"
-
-"@node-redis/graph@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@node-redis/graph/-/graph-1.0.0.tgz"
-
-"@node-redis/json@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@node-redis/json/-/json-1.0.2.tgz"
-
-"@node-redis/search@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@node-redis/search/-/search-1.0.2.tgz"
-
-"@node-redis/time-series@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@node-redis/time-series/-/time-series-1.0.1.tgz"
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -1292,6 +1263,34 @@
   resolved "https://registry.npmjs.org/@octokit/types/-/types-6.34.0.tgz"
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
+
+"@redis/bloom@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.0.2.tgz#42b82ec399a92db05e29fffcdfd9235a5fc15cdf"
+
+"@redis/client@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.1.0.tgz#e52a85aee802796ceb14bf27daf9550f51f238b8"
+  dependencies:
+    cluster-key-slot "1.1.0"
+    generic-pool "3.8.2"
+    yallist "4.0.0"
+
+"@redis/graph@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@redis/graph/-/graph-1.0.1.tgz#eabc58ba99cd70d0c907169c02b55497e4ec8a99"
+
+"@redis/json@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@redis/json/-/json-1.0.3.tgz#a13fde1d22ebff0ae2805cd8e1e70522b08ea866"
+
+"@redis/search@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@redis/search/-/search-1.0.6.tgz#53d7451c2783f011ebc48ec4c2891264e0b22f10"
+
+"@redis/time-series@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.3.tgz#4cfca8e564228c0bddcdf4418cba60c20b224ac4"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -5544,26 +5543,16 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis-errors@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/redis-errors/-/redis-errors-1.2.0.tgz"
-
-redis-parser@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz"
-  dependencies:
-    redis-errors "^1.0.0"
-
 redis@^4.0.0:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/redis/-/redis-4.0.3.tgz"
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.1.0.tgz#6e400e8edf219e39281afe95e66a3d5f7dcf7289"
   dependencies:
-    "@node-redis/bloom" "1.0.1"
-    "@node-redis/client" "1.0.3"
-    "@node-redis/graph" "1.0.0"
-    "@node-redis/json" "1.0.2"
-    "@node-redis/search" "1.0.2"
-    "@node-redis/time-series" "1.0.1"
+    "@redis/bloom" "1.0.2"
+    "@redis/client" "1.1.0"
+    "@redis/graph" "1.0.1"
+    "@redis/json" "1.0.3"
+    "@redis/search" "1.0.6"
+    "@redis/time-series" "1.0.3"
 
 reflect-metadata@^0.1.13:
   version "0.1.13"
