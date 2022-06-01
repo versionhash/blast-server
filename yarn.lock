@@ -1431,17 +1431,17 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.12.8":
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.2.tgz#f7736fbf9d502b4d74234553d1e2724b44bd2f2c"
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.3.tgz#66c116fd5b4f800fe298f310bbf11793755db195"
   dependencies:
-    "@wppconnect/wa-js" "^2.4.0"
+    "@wppconnect/wa-js" "^2.4.1"
     "@wppconnect/wa-version" "^1.1.88"
     atob "^2.1.2"
     axios "^0.27.2"
     boxen "^5.1.2"
     catch-exit "^1.2.2"
     chalk "~4.1.2"
-    chrome-launcher "^0.15.0"
+    chrome-launcher "^0.15.1"
     execa "^5.1.1"
     file-type "~16.5.3"
     futoin-hkdf "^1.5.1"
@@ -1458,7 +1458,7 @@
     reflect-metadata "^0.1.13"
     rimraf "^3.0.2"
     sanitize-filename "^1.6.3"
-    sharp "^0.30.5"
+    sharp "^0.30.6"
     tmp "^0.2.1"
     tree-kill "^1.2.2"
     winston "^3.7.2"
@@ -1466,9 +1466,9 @@
   optionalDependencies:
     fsevents "^2.3.2"
 
-"@wppconnect/wa-js@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.4.0.tgz#ebf9606f5767e95a27c90edb582f38eedf413cb8"
+"@wppconnect/wa-js@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.4.1.tgz#7188dede942222660054de60ed818096edcad8cd"
 
 "@wppconnect/wa-version@^1.1.88":
   version "1.1.88"
@@ -1962,9 +1962,9 @@ chownr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz"
 
-chrome-launcher@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.15.0.tgz"
+chrome-launcher@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.15.1.tgz#0a0208037063641e2b3613b7e42b0fcb3fa2d399"
   dependencies:
     "@types/node" "*"
     escape-string-regexp "^4.0.0"
@@ -5499,7 +5499,7 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
-sharp@^0.30.5:
+sharp@^0.30.6:
   version "0.30.6"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.6.tgz#02264e9826b5f1577509f70bb627716099778873"
   dependencies:
