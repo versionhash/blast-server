@@ -305,8 +305,8 @@
     js-tokens "^4.0.0"
 
 "@babel/node@^7.0.0":
-  version "7.17.10"
-  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.17.10.tgz#7fae7b2abe0c43387dd31292dc6007261817e504"
+  version "7.18.5"
+  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.18.5.tgz#b44a790b8896436908ebcaf4816c1efce73d61cb"
   dependencies:
     "@babel/register" "^7.17.7"
     commander "^4.0.1"
