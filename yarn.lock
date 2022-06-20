@@ -1435,11 +1435,11 @@
     "@types/node" "*"
 
 "@wppconnect-team/wppconnect@^1.12.8":
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.13.3.tgz#66c116fd5b4f800fe298f310bbf11793755db195"
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/@wppconnect-team/wppconnect/-/wppconnect-1.14.4.tgz#a8d069185a8f04a5eee2b15d011ea9fbfb60b21e"
   dependencies:
-    "@wppconnect/wa-js" "^2.4.1"
-    "@wppconnect/wa-version" "^1.1.88"
+    "@wppconnect/wa-js" "^2.7.3"
+    "@wppconnect/wa-version" "^1.1.97"
     atob "^2.1.2"
     axios "^0.27.2"
     boxen "^5.1.2"
@@ -1466,17 +1466,17 @@
     tmp "^0.2.1"
     tree-kill "^1.2.2"
     winston "^3.7.2"
-    ws "^8.7.0"
+    ws "^8.8.0"
   optionalDependencies:
     fsevents "^2.3.2"
 
-"@wppconnect/wa-js@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.4.1.tgz#7188dede942222660054de60ed818096edcad8cd"
+"@wppconnect/wa-js@^2.7.3":
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-js/-/wa-js-2.7.3.tgz#e63903beb610d3c18ae204bd0c05c5b004aea277"
 
-"@wppconnect/wa-version@^1.1.88":
-  version "1.1.88"
-  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.88.tgz#61fb8f8db0a5125c8a4282bb09b35ff1ed36d4ba"
+"@wppconnect/wa-version@^1.1.97":
+  version "1.1.97"
+  resolved "https://registry.yarnpkg.com/@wppconnect/wa-version/-/wa-version-1.1.97.tgz#e94e2093d3feba755dac3e977efe944789bd0c4e"
   dependencies:
     node-fetch "^2.6.7"
     semver "^7.3.7"
@@ -6798,9 +6798,9 @@ ws@8.2.3, ws@~8.2.3:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
 
-ws@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.7.0.tgz#eaf9d874b433aa00c0e0d8752532444875db3957"
+ws@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.0.tgz#8e71c75e2f6348dbf8d78005107297056cb77769"
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
