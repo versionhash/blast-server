@@ -1544,11 +1544,11 @@ ansi-escapes@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-3.2.0.tgz"
 
-ansi-escapes@^4.2.1:
-  version "4.3.2"
-  resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
+ansi-escapes@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-5.0.0.tgz#b6a0caf0eef0c41af190e9a749e0c00ec04bb2a6"
   dependencies:
-    type-fest "^0.21.3"
+    type-fest "^1.0.2"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -1581,6 +1581,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
   dependencies:
     color-convert "^2.0.1"
+
+ansi-styles@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.1.0.tgz#87313c102b8118abd57371afab34618bf7350ed3"
 
 anymatch@~3.1.2:
   version "3.1.2"
@@ -1760,7 +1764,7 @@ binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
 
-bl@^4.0.3, bl@^4.1.0:
+bl@^4.0.3:
   version "4.1.0"
   resolved "https://registry.npmjs.org/bl/-/bl-4.1.0.tgz"
   dependencies:
@@ -1953,7 +1957,7 @@ catch-exit@^1.2.2:
   dependencies:
     human-signals "2.1.0"
 
-chalk@5.0.1, chalk@^5.0.0:
+chalk@5.0.1, chalk@^5.0.0, chalk@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.1.tgz#ca57d71e82bb534a296df63bbacc4a1c22b2a4b6"
 
@@ -1972,7 +1976,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@~4.1.2:
+chalk@^4.0.0, chalk@^4.1.0, chalk@~4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   dependencies:
@@ -2032,19 +2036,13 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/cli-cursor/-/cli-cursor-3.1.0.tgz"
-  dependencies:
-    restore-cursor "^3.1.0"
-
 cli-cursor@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-4.0.0.tgz#3cecfe3734bf4fe02a8361cbdc0f6fe28c6a57ea"
   dependencies:
     restore-cursor "^4.0.0"
 
-cli-spinners@^2.5.0, cli-spinners@^2.6.1:
+cli-spinners@^2.6.1:
   version "2.6.1"
   resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.6.1.tgz"
 
@@ -2052,9 +2050,9 @@ cli-width@^2.0.0:
   version "2.2.1"
   resolved "https://registry.npmjs.org/cli-width/-/cli-width-2.2.1.tgz"
 
-cli-width@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/cli-width/-/cli-width-3.0.0.tgz"
+cli-width@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-4.0.0.tgz#a5622f6a3b0a9e3e711a25f099bf2399f608caf6"
 
 cliui@^5.0.0:
   version "5.0.0"
@@ -2675,6 +2673,10 @@ duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz"
 
+eastasianwidth@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
@@ -2690,6 +2692,10 @@ emoji-regex@^7.0.1:
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
+
+emoji-regex@^9.2.2:
+  version "9.2.2"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
 
 enabled@2.0.x:
   version "2.0.0"
@@ -2827,6 +2833,10 @@ escape-string-regexp@^1.0.5:
 escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
+
+escape-string-regexp@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
 
 escodegen@^1.8.1:
   version "1.14.3"
@@ -3123,11 +3133,12 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-figures@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/figures/-/figures-3.2.0.tgz"
+figures@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/figures/-/figures-4.0.1.tgz#27b26609907bc888b3e3b0ef5403643f80aa2518"
   dependencies:
-    escape-string-regexp "^1.0.5"
+    escape-string-regexp "^5.0.0"
+    is-unicode-supported "^1.2.0"
 
 file-entry-cache@^6.0.1:
   version "6.0.1"
@@ -3561,9 +3572,9 @@ globals@^13.15.0:
   dependencies:
     type-fest "^0.20.2"
 
-globby@13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.1.tgz#7c44a93869b0b7612e38f22ed532bfe37b25ea6f"
+globby@13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.2.tgz#29047105582427ab6eca4f905200667b056da515"
   dependencies:
     dir-glob "^3.0.1"
     fast-glob "^3.2.11"
@@ -3584,9 +3595,9 @@ globby@^10.0.1:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
-got@12.0.4:
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/got/-/got-12.0.4.tgz#e3b6bf6992425f904076fd71aac7030da5122de8"
+got@12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-12.1.0.tgz#099f3815305c682be4fd6b0ee0726d8e4c6b0af4"
   dependencies:
     "@sindresorhus/is" "^4.6.0"
     "@szmarczak/http-timer" "^5.0.1"
@@ -3840,25 +3851,25 @@ inquirer@6.5.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-inquirer@8.2.4:
-  version "8.2.4"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-8.2.4.tgz#ddbfe86ca2f67649a67daa6f1051c128f684f0b4"
+inquirer@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.0.0.tgz#8b0cc9f202bfa3edfc7fc93f389f9e57ecc45eed"
   dependencies:
-    ansi-escapes "^4.2.1"
-    chalk "^4.1.1"
-    cli-cursor "^3.1.0"
-    cli-width "^3.0.0"
+    ansi-escapes "^5.0.0"
+    chalk "^5.0.1"
+    cli-cursor "^4.0.0"
+    cli-width "^4.0.0"
     external-editor "^3.0.3"
-    figures "^3.0.0"
+    figures "^4.0.1"
     lodash "^4.17.21"
     mute-stream "0.0.8"
-    ora "^5.4.1"
+    ora "^6.1.0"
     run-async "^2.4.0"
     rxjs "^7.5.5"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
+    string-width "^5.1.2"
+    strip-ansi "^7.0.1"
     through "^2.3.6"
-    wrap-ansi "^7.0.0"
+    wrap-ansi "^8.0.1"
 
 internal-slot@^1.0.3:
   version "1.0.3"
@@ -3985,10 +3996,6 @@ is-installed-globally@^0.4.0:
     global-dirs "^3.0.0"
     is-path-inside "^3.0.2"
 
-is-interactive@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/is-interactive/-/is-interactive-1.0.0.tgz"
-
 is-interactive@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-interactive/-/is-interactive-2.0.0.tgz#40c57614593826da1100ade6059778d597f16e90"
@@ -4094,11 +4101,7 @@ is-typedarray@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz"
 
-is-unicode-supported@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz"
-
-is-unicode-supported@^1.1.0:
+is-unicode-supported@^1.1.0, is-unicode-supported@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/is-unicode-supported/-/is-unicode-supported-1.2.0.tgz#f4f54f34d8ebc84a46b93559a036763b6d3e1014"
 
@@ -4376,13 +4379,6 @@ lodash.merge@^4.6.2:
 lodash@4.17.21, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
-
-log-symbols@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz"
-  dependencies:
-    chalk "^4.1.0"
-    is-unicode-supported "^0.1.0"
 
 log-symbols@^5.1.0:
   version "5.1.0"
@@ -4957,7 +4953,7 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-ora@6.1.0:
+ora@6.1.0, ora@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/ora/-/ora-6.1.0.tgz#86aa07058c4e9fb91444412d103b0d7e01aca973"
   dependencies:
@@ -4969,20 +4965,6 @@ ora@6.1.0:
     is-unicode-supported "^1.1.0"
     log-symbols "^5.1.0"
     strip-ansi "^7.0.1"
-    wcwidth "^1.0.1"
-
-ora@^5.4.1:
-  version "5.4.1"
-  resolved "https://registry.npmjs.org/ora/-/ora-5.4.1.tgz"
-  dependencies:
-    bl "^4.1.0"
-    chalk "^4.1.0"
-    cli-cursor "^3.1.0"
-    cli-spinners "^2.5.0"
-    is-interactive "^1.0.0"
-    is-unicode-supported "^0.1.0"
-    log-symbols "^4.1.0"
-    strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
 os-name@5.0.1:
@@ -5635,8 +5617,8 @@ regjsparser@^0.8.2:
     jsesc "~0.5.0"
 
 release-it@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-15.0.0.tgz#82be33b3d483b2832b6a43faf765fdb82af6bc2a"
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-15.1.0.tgz#566d5915bf5672dd59a9c8267fbb255c4ad80d28"
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.12.0"
@@ -5646,9 +5628,9 @@ release-it@^15.0.0:
     execa "6.1.0"
     form-data "4.0.0"
     git-url-parse "11.6.0"
-    globby "13.1.1"
-    got "12.0.4"
-    inquirer "8.2.4"
+    globby "13.1.2"
+    got "12.1.0"
+    inquirer "9.0.0"
     is-ci "3.0.1"
     lodash "4.17.21"
     mime-types "2.1.35"
@@ -5723,13 +5705,6 @@ restore-cursor@^2.0.0:
   resolved "https://registry.npmjs.org/restore-cursor/-/restore-cursor-2.0.0.tgz"
   dependencies:
     onetime "^2.0.0"
-    signal-exit "^3.0.2"
-
-restore-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz"
-  dependencies:
-    onetime "^5.1.0"
     signal-exit "^3.0.2"
 
 restore-cursor@^4.0.0:
@@ -6113,6 +6088,14 @@ string-width@^3.0.0, string-width@^3.1.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
+string-width@^5.0.1, string-width@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-5.1.2.tgz#14f8daec6d81e7221d2a357e668cab73bdbca794"
+  dependencies:
+    eastasianwidth "^0.2.0"
+    emoji-regex "^9.2.2"
+    strip-ansi "^7.0.1"
+
 string.prototype.trimend@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.4.tgz"
@@ -6453,10 +6436,6 @@ type-fest@^0.20.2:
   version "0.20.2"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
 
-type-fest@^0.21.3:
-  version "0.21.3"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.21.3.tgz"
-
 type-fest@^0.6.0:
   version "0.6.0"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.6.0.tgz"
@@ -6464,6 +6443,10 @@ type-fest@^0.6.0:
 type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz"
+
+type-fest@^1.0.2:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
 
 type-fest@^2.5.1:
   version "2.13.0"
@@ -6780,6 +6763,14 @@ wrap-ansi@^7.0.0:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
+
+wrap-ansi@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-8.0.1.tgz#2101e861777fec527d0ea90c57c6b03aac56a5b3"
+  dependencies:
+    ansi-styles "^6.1.0"
+    string-width "^5.0.1"
+    strip-ansi "^7.0.1"
 
 wrappy@1:
   version "1.0.2"
